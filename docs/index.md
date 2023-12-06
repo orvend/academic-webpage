@@ -4,16 +4,24 @@ hide:
   - toc
 ---
 <style>
-    /* Set the initial color */
-    a:hover {
-        /* Set the color on hover */
-        filter: brightness(100%) invert(80%);
-        transition: filter 0.3s ease-in-out;
+  /* Set the initial color */
+  a:hover {
+      /* Set the color on hover */
+      filter: brightness(100%) invert(80%);
+      transition: filter 0.3s ease-in-out;
+  }
+  .img-text {
+    display: flex;
+  }
+  @media screen and (max-width: 600px) {
+    .img-text {
+      flex-direction: column;
     }
+  }
 </style>
 
 # NAME SURNAME
-<div style="align-items: center; display: flex;">
+<div class="img-text" style="align-items: center;">
   <img style="float: right; margin-right: 10px;" width="300" height="300" src="./assets/avatar.png" />
   <div style="text-align: justify; margin-right: 50px; margin-left: 50px;"> 
     I am NAME SURNAME and I am a PhD Candidate at UNIVERSITY NAME at <a href="https://google.com" target="_blank">LAB NAME</a>.

@@ -15,6 +15,14 @@
   button:hover {
       background-color: #555555; /* Dark grey */
   }
+  .img-text {
+    display: flex;
+  }
+  @media screen and (max-width: 600px) {
+    .img-text {
+      flex-direction: column;
+    }
+  }
 </style>
 
 # Publications
@@ -28,7 +36,7 @@
     <div style="margin-bottom: 10px;">
         *CITATION*
     </div>
-    <div style="align-items: center; display: flex;">
+    <div class="img-text" style="align-items: center;">
       <img style="float: left; margin-right: 10px" width="250" height="250" src="../../assets/noimage.png">
       <div style="text-align: justify"> 
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
@@ -50,7 +58,7 @@
     <div style="margin-bottom: 10px;">
       *CITATION*
     </div>
-    <div style="align-items: center; display: flex;">
+    <div class="img-text" style="align-items: center;">
       <img style="float: left; margin-right: 10px" width="250" height="250" src="../../assets/noimage.png">
       <div style="text-align: justify"> 
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
@@ -69,7 +77,7 @@
     <div style="margin-bottom: 10px;">
       *CITATION*
     </div>    
-    <div style="align-items: center; display: flex;">
+    <div class="img-text" style="align-items: center;">
       <img style="float: left; margin-right: 10px" width="250" height="250" src="../../assets/noimage.png">
       <div style="text-align: justify"> 
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
