@@ -1,4 +1,6 @@
 ![ci](https://github.com/orvend/academic-webpage/actions/workflows/ci.yml/badge.svg)
+![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)
+![License](https://img.shields.io/github/followers/orvend.svg?style=social&label=Follow&maxAge=2592000)
 
 # Webpage
 
