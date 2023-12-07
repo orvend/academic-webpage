@@ -46,6 +46,7 @@ hide:
 # NAME SURNAME
 <div class="img-text" style="align-items: center;">
   <img style="float: right; margin-right: 10px;" width="300" height="300" src="./assets/avatar.png" />
+  <br clear="left"/>
   <div class="img-text-div" style="text-align: justify;"> 
     I am NAME SURNAME and I am a PhD Candidate at UNIVERSITY NAME at <a href="https://google.com" target="_blank">LAB NAME</a>.
   </div>
