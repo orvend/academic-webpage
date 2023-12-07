@@ -49,6 +49,7 @@
 .md-typeset .publication > .admonition-title,
 .md-typeset .publication > summary {
 	background-color: var(--publications-background-color-title);
+  color: black;
 }
 .md-typeset .publication > .admonition-title::before,
 .md-typeset .publication > summary::before {

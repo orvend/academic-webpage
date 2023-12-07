@@ -22,9 +22,23 @@ hide:
   .img-text {
     display: flex;
   }
-  @media screen and (max-width: 600px) {
+  .img-text-div {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  @media screen and (max-width: 800px) {
     .img-text {
       flex-direction: column;
+    }
+    .img-text-div {
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .img-text-div {
+      margin-right: 5px;
+      margin-left: 5px;
     }
   }
 </style>
@@ -32,7 +46,7 @@ hide:
 # NAME SURNAME
 <div class="img-text" style="align-items: center;">
   <img style="float: right; margin-right: 10px;" width="300" height="300" src="./assets/avatar.png" />
-  <div style="text-align: justify; margin-right: 50px; margin-left: 50px;"> 
+  <div class="img-text-div" style="text-align: justify;"> 
     I am NAME SURNAME and I am a PhD Candidate at UNIVERSITY NAME at <a href="https://google.com" target="_blank">LAB NAME</a>.
   </div>
 </div>
